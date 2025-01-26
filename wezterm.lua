@@ -2,9 +2,9 @@ local wezterm = require("wezterm")
 local config = {}
 
 config.color_scheme = "Gruvbox Dark (Gogh)"
-config.window_background_opacity = 0.7
-config.font = wezterm.font_with_fallback({ "Fixedsys Excelsior", "Fira Code Nerd Font" })
-config.font_size = 12.0
+config.window_background_opacity = 0.9
+config.font = wezterm.font_with_fallback({ "Monocraft", "Fira Code Nerd Font" })
+config.font_size = 11.0
 config.window_frame = {
 	font = wezterm.font_with_fallback({ "Fixedsys Excelsior", "Roboto" }),
 	font_size = 12.0,
