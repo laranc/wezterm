@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 local config = {}
 
 config.color_scheme = "Gruvbox Dark (Gogh)"
-config.window_background_opacity = 0.9
+config.window_background_opacity = 1.0
 config.font = wezterm.font_with_fallback({ "BigBlueTerm437 Nerd Font", "Monocraft Nerd Font" })
 config.font_size = 11.0
 config.window_frame = {
